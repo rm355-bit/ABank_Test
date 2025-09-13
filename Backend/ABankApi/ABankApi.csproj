@@ -15,11 +15,7 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ABankApi.Tests\ABankApi.Tests.csproj">
-      <TreatAsUsed>true</TreatAsUsed>
-    </ProjectReference>
-  </ItemGroup>
+
   
 
 <PropertyGroup>

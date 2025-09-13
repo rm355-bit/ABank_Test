@@ -4,7 +4,7 @@ using Npgsql;
 
 namespace ABankApi.Data
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
 
         private readonly string _connectionString;

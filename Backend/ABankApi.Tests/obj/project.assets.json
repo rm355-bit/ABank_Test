@@ -1483,7 +1483,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "ABankApi.Tests": "1.0.0",
           "Dapper": "2.1.66",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Npgsql": "8.0.0",
@@ -3688,11 +3687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\ABank\\Backend\\ABankApi.Tests\\ABankApi.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi.Tests\\ABankApi.Tests.csproj",
       "projectName": "ABankApi.Tests",
-      "projectPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\ABank\\Backend\\ABankApi.Tests\\ABankApi.Tests.csproj",
+      "projectPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi.Tests\\ABankApi.Tests.csproj",
       "packagesPath": "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\ABank\\Backend\\ABankApi.Tests\\obj\\",
+      "outputPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3714,8 +3713,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\ABank\\Backend\\ABankApi\\ABankApi.csproj": {
-              "projectPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\ABank\\Backend\\ABankApi\\ABankApi.csproj"
+            "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj": {
+              "projectPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj"
             }
           }
         }
@@ -3806,15 +3805,6 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.WebApi.Core 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  ABankApi.Tests -> ABankApi -> ABankApi.Tests.",
-      "libraryId": "ABankApi.Tests",
       "targetGraphs": [
         "net8.0"
       ]

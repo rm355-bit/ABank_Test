@@ -9,8 +9,8 @@ namespace ABankApi.Controllers
     [Route("api/v1/users")]
     public class UsersController : ControllerBase
     {
-        private readonly UserRepository _userRepository;
-        public UsersController(UserRepository userRepository)
+        private readonly IUserRepository _userRepository;
+        public UsersController(IUserRepository userRepository)
         {
             _userRepository = userRepository;
         }
