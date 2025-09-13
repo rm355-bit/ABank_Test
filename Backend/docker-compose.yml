@@ -1,0 +1,24 @@
+services:
+  abank-api:
+    build: ./ABankApi
+    container_name: abank-api-container
+    ports:
+      - "5000:80"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      ConnectionStrings__DefaultConnection: Host=abank-db;Port=5432;Database=ABankDB;Username=postgres;Password=Monroy2025@
+    depends_on:
+      - abank-db
+
+  abank-db:
+    image: postgres:13
+    container_name: abank-db-container
+    environment:
+      POSTGRES_DB: ABankDB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Monroy2025@
+    volumes:
+      - ./Base de datos/script.sql:/docker-entrypoint-initdb.d/script.sql
+    ports:
+      - "5432:5432"
