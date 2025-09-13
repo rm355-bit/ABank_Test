@@ -6,13 +6,13 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ABankApi.Data.IUserRepository, ABankApi.Data.UserRepository>();
 var configuration = builder.Configuration;
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<UserRepository>();
-
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
