@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vF+ZmadHn4Y=",
+  "dgSpecHash": "v79Qj7Borlo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj",
+  "projectFilePath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abankv2\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
+    "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
@@ -16,11 +17,13 @@
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
+    "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\swashbuckle.aspnetcore\\8.0.0\\swashbuckle.aspnetcore.8.0.0.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.0.0\\swashbuckle.aspnetcore.swagger.8.0.0.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.0.0\\swashbuckle.aspnetcore.swaggergen.8.0.0.nupkg.sha512",
+    "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.0.0\\swashbuckle.aspnetcore.swaggerui.8.0.0.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
-    "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.20\\microsoft.windowsdesktop.app.ref.8.0.20.nupkg.sha512",
+    "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.20\\microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
     "C:\\Users\\rebec.REBECCAMONROY\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.20\\microsoft.netcore.app.host.win-x64.8.0.20.nupkg.sha512"
   ],
@@ -29,9 +32,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Npgsql' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "projectPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj",
+      "projectPath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abankv2\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abank-app\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj",
+      "filePath": "C:\\Users\\rebec.REBECCAMONROY\\OneDrive\\Desktop\\abankv2\\ABank_Test\\Backend\\ABankApi\\ABankApi.csproj",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net8.0"
